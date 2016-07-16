@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(window).scroll(function(){var s=$(this).scrollTop();s>60?$(".topbar").addClass("sticky-menu"):$(".topbar").removeClass("sticky-menu"),s+200>$("#services").offset().top&&$(".service").each(function(s){setTimeout(function(){$(".service").eq(s).addClass("is-showing")},250*(s+1))})})});
